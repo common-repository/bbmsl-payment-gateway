@@ -1,0 +1,906 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: BBMSL Payment Gateway 1.0.11\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/bbmsl\n"
+"Last-Translator: chiucs123\n"
+"Language-Team: 香港中文\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2022-12-04T22:01:00-05:00\n"
+"PO-Revision-Date: 2023-09-06 07:39+0000\n"
+"X-Generator: Loco https://localise.biz/\n"
+"X-Domain: bbmsl-gateway\n"
+"Language: zh_HK\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Loco-Version: 2.6.4; wp-6.2.2"
+
+#. %s is the name of the attribute that triggered this error
+#: plugin/Setup.php:79
+#, php-format
+msgid "%s cannot be blank."
+msgstr "%s不可留空。"
+
+#. %s is the name of the attribute that triggered this error
+#: plugin/Setup.php:85
+#, php-format
+msgid "%s must be an integer"
+msgstr "%s必須是整數數字。"
+
+#. %s is the name of the attribute that triggered this error
+#: plugin/Setup.php:91
+#, php-format
+msgid "%s must larger than 0."
+msgstr "%s必須大於0。"
+
+#: views/panes/merchant-settings.php:67
+#, php-format
+msgid "1. On %s"
+msgstr "1. 在 %s 上"
+
+#: views/panes/merchant-settings.php:79
+msgid "2. On BBMSL Portal"
+msgstr "2. 在 BBMSL 控制台上"
+
+#: sdk/PaymentGateway.php:185
+msgid ""
+"[Error - Invalid Key] For further assist, please contact customer service."
+msgstr "[錯誤 - 無效的密鑰] 請聯繫客戶服務以取得協助。"
+
+#: sdk/PaymentGateway.php:183
+msgid ""
+"[Error - No Public Key] For further assist, please contact customer service."
+msgstr "[錯誤 - 沒有公共密鑰] 請聯繫客戶服務以取得協助。"
+
+#: views/panes/merchant-settings.php:188
+msgid "About Refunds"
+msgstr "有關退款"
+
+#: plugin/Notice.php:129
+msgid "Activate Now"
+msgstr "立即啟用"
+
+#: views/panes/other-settings.php:98
+msgid "Adjust the background color of the checkout button on the gateway page."
+msgstr "調整付款頁面上結帳按鈕的背景顏色。"
+
+#: views/panes/other-settings.php:90
+msgid "Adjust the background color of the gateway page."
+msgstr "調整付款頁面的背景顏色。"
+
+#: views/panes/other-settings.php:106
+msgid "Adjust the font color of the checkout button on the gateway page."
+msgstr "調整付款頁面的文字顯示顏色。"
+
+#: views/woocommerce_payments_settings.php:49
+#: views/panes/advanced-settings.php:22
+msgid "Advanced Settings"
+msgstr "進階設定"
+
+#: views/woocommerce_order_status.php:66
+msgid "Amount"
+msgstr "金額"
+
+#: sdk/PaymentGateway.php:190
+msgid "An error has occured."
+msgstr "發生了錯誤。"
+
+#: plugin/Setup.php:538
+msgid "API call failed."
+msgstr "API連接失敗。"
+
+#: plugin/Setup.php:388
+msgid "API docs"
+msgstr "API技術文件"
+
+#: views/panes/content-settings.php:90
+msgid "Available Gateways"
+msgstr "可以使用的付款渠道"
+
+#: sdk/PaymentGateway.php:38
+msgid "BBMSL"
+msgstr "BBMSL"
+
+#: plugin/WooCommerce.php:290
+msgid "BBMSL Checkout"
+msgstr "BBMSL結帳"
+
+#: bootstrap/Constants.php:231
+msgid "BBMSL Order ID"
+msgstr "BBMSL訂單編號"
+
+#. Name of the plugin
+msgid "BBMSL Payment Gateway"
+msgstr "BBMSL Payment Gateway"
+
+#: plugin/Setup.php:592 plugin/Setup.php:610 plugin/Setup.php:611
+#: plugin/Setup.php:624 plugin/Setup.php:625 plugin/Setup.php:651
+#: plugin/Setup.php:652
+msgid "BBMSL Settings"
+msgstr "BBMSL設定"
+
+#: views/panes/other-settings.php:80
+msgid ""
+"Before returning to merchant shop, show payment result page for a while."
+msgstr "在回到商戶網站前短暫顯示結帳結果頁面。"
+
+#: views/panes/other-settings.php:95
+msgid "Button Background Color"
+msgstr "付款按鈕背景顏色"
+
+#: views/panes/other-settings.php:103
+msgid "Button Font Color"
+msgstr "付款按鈕字體顏色"
+
+#: controllers/RefundController.php:47
+msgid "Cancelled order does not qualify for refunds."
+msgstr "已取消的訂單不可以退款。"
+
+#: plugin/Setup.php:521 plugin/WooCommerce.php:378
+msgid "Cannot create new API call instance."
+msgstr "無法創立API接口。"
+
+#: controllers/RefundController.php:65
+msgid "Cannot obtain API instance."
+msgstr "無法創立API接口。"
+
+#: sdk/PaymentGateway.php:86
+msgid ""
+"Cart items cannot be added to payment order. Please try refreshing to see if "
+"the existing cart is still vaild for checkout."
+msgstr "購物車項目不能添加到付款訂單中。請嘗試「重新載入」以查看現有的購物車是否仍需結帳。"
+
+#: views/woocommerce_order_status.php:34
+msgid "Change Mode"
+msgstr "更改模式"
+
+#: views/panes/operational-settings.php:34
+msgid "Change order status when payment has been confirmed by the gateway."
+msgstr "網店收到由BBMSL發出確定收款訊號時更新的狀態"
+
+#: views/woocommerce_order_status.php:45
+msgid "Checkout link is not available."
+msgstr "付款鏈結不可用。"
+
+#. Author of the plugin
+msgid "Coding Free Limited for BBMSL"
+msgstr "Coding Free Limited for BBMSL"
+
+#: plugin/Setup.php:392 plugin/Setup.php:393
+#: views/panes/merchant-settings.php:192
+msgid "Contact Support"
+msgstr "聯絡客戶服務"
+
+#: views/woocommerce_payments_settings.php:29
+#: views/panes/content-settings.php:27
+msgid "Content Settings"
+msgstr "內容設定"
+
+#: views/panes/content-settings.php:68
+msgid ""
+"Content to display when customer is going to checkout with BBMSL gateway."
+msgstr "在客戶使用BBMSL電子支付服務時顯示的內容"
+
+#: views/panes/merchant-settings.php:74 views/panes/merchant-settings.php:118
+#: views/panes/merchant-settings.php:156
+msgid "Copy"
+msgstr "複製"
+
+#: views/woocommerce_order_status.php:85
+msgid "Created at"
+msgstr "建立於"
+
+#: views/panes/merchant-settings.php:53
+msgid "Current endpoint: "
+msgstr "目前接點："
+
+#: views/panes/merchant-settings.php:49
+msgid "Current mode: "
+msgstr "目前模式："
+
+#: views/panes/content-settings.php:60
+msgid "Description"
+msgstr "詳情"
+
+#: views/panes/woocommerce-settings.php:32
+msgid "Deselect All"
+msgstr "全不選"
+
+#: bootstrap/Plugin.php:277
+#, php-format
+msgid "Disk free space: %s"
+msgstr "硬碟空間：%s"
+
+#: bootstrap/Plugin.php:280
+#, php-format
+msgid "Disk total space: %s"
+msgstr "硬碟容量：%s"
+
+#: views/panes/merchant-settings.php:198
+msgid "Display Cart Express Checkout."
+msgstr "顯示「特快付款」的選項。"
+
+#: views/panes/other-settings.php:79
+msgid "Display Result Page"
+msgstr "顯示結帳結果頁面"
+
+#: views/panes/advanced-settings.php:39
+msgid "Display your server full configuration."
+msgstr "顯示所有伺服器設定"
+
+#: bootstrap/Plugin.php:260
+#, php-format
+msgid "DNS probe for: %s %s"
+msgstr "DNS連線：%s %s"
+
+#: views/panes/advanced-settings.php:34
+msgid "Download"
+msgstr "下載"
+
+#: views/panes/advanced-settings.php:30
+msgid "Download a copy of API activities for programmatic inspection."
+msgstr "下載交易系統完整通訊紀錄檔供檢查。"
+
+#: views/panes/advanced-settings.php:28
+msgid "Download Logs"
+msgstr "下載紀錄檔"
+
+#: views/panes/content-settings.php:155
+msgid "Email Content"
+msgstr "電郵內容設定"
+
+#: views/panes/other-settings.php:58
+msgid "Email field on the gateway page."
+msgstr "結帳頁面上的電子郵件輸入欄。"
+
+#: plugin/WooCommerce.php:375
+msgid "Empty order ID or merchant reference."
+msgstr "空白的訂單ID或商人參考。"
+
+#: views/panes/merchant-settings.php:168
+msgid "Enable refund via this gateway."
+msgstr "開啟BBMSL電子支付服務的退款設定"
+
+#: views/panes/advanced-settings.php:48
+msgid ""
+"Erase all BBMSL related settings except for your public and private keys."
+msgstr "除密鑰以外，刪除並重設所有BBMSL相關設定。"
+
+#: views/panes/merchant-settings.php:197
+msgid "Express Checkout"
+msgstr "特快付款"
+
+#: bootstrap/Plugin.php:258
+msgid "Failed"
+msgstr "失敗"
+
+#: controllers/RefundController.php:60 controllers/RefundController.php:83
+#: sdk/PaymentGateway.php:208
+msgid "Failed to get order instance."
+msgstr "無法獲得訂單實例。"
+
+#: sdk/PaymentGateway.php:206
+msgid "Failed to initiate gateway."
+msgstr "失敗的啟動網關。"
+
+#: sdk/PaymentGateway.php:204
+msgid "Failed to obtain checkout session."
+msgstr "未能獲得結帳會議。"
+
+#: plugin/Setup.php:440
+msgid "Failed to obtain order metadata."
+msgstr "未能訂單資料。."
+
+#. %d is the order ID concerned
+#: controllers/WebhookController.php:144
+#, php-format
+msgid "Failed to read order %s."
+msgstr "無法讀取訂單%s"
+
+#: sdk/BBMSL_SDK.php:275
+msgid "Failed to sign the request, please contact technical support."
+msgstr "無法完成簽名驗證，請與技術支援聯絡。"
+
+#: sdk/PaymentGateway.php:80
+msgid "Failed to validate order currency."
+msgstr "訂單貨幣無效。"
+
+#: views/panes/other-settings.php:42
+msgid "Gateway branding on the gateway page."
+msgstr "結帳頁面上的支援字樣。"
+
+#: views/panes/content-settings.php:30
+msgid "Gateway Display Name"
+msgstr "付款方式的顯示名稱"
+
+#: controllers/WebhookController.php:110
+msgid "Gateway Error"
+msgstr "連線錯誤"
+
+#. %s is the returned gateway error
+#: sdk/PaymentGateway.php:188
+#, php-format
+msgid "Gateway Error: %s"
+msgstr "錯誤：%s"
+
+#: views/panes/advanced-settings.php:49
+msgid ""
+"Gateway settings will be reset to default state, including previously "
+"enabled/disabled payment methods."
+msgstr "所有設定值會重設為預設值，包括先前有開關的付款方式"
+
+#: views/panes/merchant-settings.php:73 views/panes/merchant-settings.php:115
+#: views/panes/merchant-settings.php:153
+msgid "Generate"
+msgstr "產生"
+
+#: plugin/Setup.php:163
+msgid "Generated key check failed, please try again."
+msgstr "產生密鑰失敗，請重試。"
+
+#: controllers/WebhookController.php:166
+msgid "Hello"
+msgstr "你好"
+
+#. %s is the HTML code for the handle icon
+#: views/panes/content-settings.php:119
+#, php-format
+msgid "Hint: Drag %s to adjust sorting."
+msgstr "提示：拖放 %s 圖示即可更改項目次序。"
+
+#: plugin/Setup.php:52
+#| msgid "https://bbmsl.com/en/contact/"
+msgid "https://bbmsl.com/en/contact-us/"
+msgstr "https://bbmsl.com/zh-hant/contact-us"
+
+#: plugin/Setup.php:386
+msgid "https://docs.bbmsl.com/"
+msgstr "https://docs.bbmsl.com/"
+
+#. Author URI of the plugin
+msgid "https://www.bbmsl.com/"
+msgstr "https://www.bbmsl.com/"
+
+#: views/panes/content-settings.php:100
+msgid ""
+"In the scenario where none of the icons are selected, all available payment "
+"methods will be displayed on the BBMSL checkout page."
+msgstr ""
+"如果未選擇任何圖示，將會在BBMSL結帳頁面上顯示所有可用的支付方式。\n"
+
+#: plugin/Notice.php:116
+msgid "Install Now"
+msgstr "現在安裝"
+
+#: bootstrap/Plugin.php:264
+msgid "Internal DB version: %d"
+msgstr "內存數據庫版本： %d"
+
+#: sdk/Webhook.php:107
+#, php-format
+msgid "Invalid method: %s."
+msgstr "無效方法：%s。"
+
+#: controllers/WebhookController.php:129
+#, php-format
+msgid "Invalid signature, validated with %s public key."
+msgstr "使用%s公鑰驗證失敗。"
+
+#: views/woocommerce_order_status.php:97
+msgid "Is Recurring?"
+msgstr "是否續訂"
+
+#: views/panes/other-settings.php:34
+msgid "Language options on the gateway page."
+msgstr "結帳頁面上的語言工具。"
+
+#. %s is the timestamp string for last key generation
+#: views/panes/merchant-settings.php:110 views/panes/merchant-settings.php:148
+#, php-format
+msgid "Last key generation: %s"
+msgstr "最後產生密鑰時間：%s"
+
+#: views/woocommerce_order_status.php:91
+msgid "Last updated at"
+msgstr "最後更新"
+
+#: plugin/Setup.php:207 views/panes/merchant-settings.php:89
+msgid "Live Site"
+msgstr "交易模式"
+
+#: bootstrap/Plugin.php:272
+#, php-format
+msgid "Max. upload size: %s"
+msgstr "最大上載大小： %s"
+
+#: bootstrap/Plugin.php:273
+#, php-format
+msgid "Max. upload time: %ss"
+msgstr "最長上載時限： %s"
+
+#: bootstrap/Plugin.php:268
+#, php-format
+msgid "Memory usage: %s"
+msgstr "記憶體用量：%s"
+
+#: views/panes/merchant-settings.php:92 views/panes/merchant-settings.php:130
+msgid "Merchant ID"
+msgstr "商戶ID"
+
+#: bootstrap/Constants.php:234 views/woocommerce_order_status.php:59
+msgid "Merchant Reference"
+msgstr "商戶參考"
+
+#: views/panes/other-settings.php:66
+msgid "Merchant reference line on the gateway page."
+msgstr "結帳頁面上的商戶參考。"
+
+#: views/woocommerce_payments_settings.php:24
+#: views/panes/merchant-settings.php:36
+msgid "Merchant Settings"
+msgstr "店主設定"
+
+#: controllers/RefundController.php:55
+msgid "Merchant settings not ready."
+msgstr "目前商戶的設定尚未完成。"
+
+#: controllers/WebhookController.php:92
+msgid "Missing signature."
+msgstr "欠缺簽名。"
+
+#. %s is the mode name
+#. %s is the previous mode code before failing over
+#: plugin/Setup.php:108 sdk/BBMSL.php:96
+#, php-format
+msgid "Mode (%s) is not accepted, please try again."
+msgstr "「%s」不是有效模式，請重試。"
+
+#: views/woocommerce_order_status.php:78
+msgid "Net Amount"
+msgstr "淨金額"
+
+#: views/panes/merchant-settings.php:104 views/panes/merchant-settings.php:142
+msgid "Never"
+msgstr "從未"
+
+#. %s is the name of the mode for which the keys are genereated
+#: plugin/Notice.php:171
+#, php-format
+msgid ""
+"New %s key pair generated successfully, please update portal information "
+"immediately."
+msgstr "新的%s密鑰對成功產生，請立即更新BBMSL控制台設定。"
+
+#: views/woocommerce_order_status.php:102
+msgid "No"
+msgstr "否"
+
+#: bootstrap/Plugin.php:240 bootstrap/Plugin.php:256
+msgid "OK"
+msgstr "成功"
+
+#. Description of the plugin
+#: sdk/PaymentGateway.php:66
+msgid ""
+"Online payment solution for Hong Kong merchants. Supports Visa, Master, AMEX,"
+" Alipay, Wechat Pay, Apple Pay, Google Pay."
+msgstr ""
+"BBMSL一站式電子支付方案極具競爭力，能與超過30種零售餐飲系統整合，為你的業務量身訂做專屬的電子支付方案，實現流動支付，助你提高生意額及收款效率。"
+
+#: views/woocommerce_order_status.php:136
+msgid "Online refund is available after settlement."
+msgstr "訂單在結算後才可以退款。"
+
+#: views/woocommerce_payments_settings.php:34
+#: views/panes/operational-settings.php:54
+msgid "Operational Settings"
+msgstr "執行設定"
+
+#. %d is the order ID concerned
+#: controllers/WebhookController.php:137
+#, php-format
+msgid "Order (#%s) not found."
+msgstr "\"訂單（#%s）找不到。"
+
+#: views/panes/woocommerce-settings.php:28
+msgid "Order Column Display"
+msgstr "訂單欄位顯示"
+
+#: views/panes/other-settings.php:50
+msgid "Order detail listing on the gateway page."
+msgstr "結帳頁面上的帳單詳情。"
+
+#: views/woocommerce_order_status.php:42
+msgid "Order has not been paid, client may checkout at the following link:"
+msgstr "訂單尚未付款，請指示客人在以下鏈結完成付款："
+
+#: views/woocommerce_order_status.php:53
+msgid "Order ID"
+msgstr "訂單編號"
+
+#: views/panes/other-settings.php:74
+msgid "Order ID on the gateway page."
+msgstr "結帳頁面上的訂單編號。"
+
+#: sdk/BBMSL_SDK.php:324
+msgid "Order production failed, please contact technical support."
+msgstr "無法上傳訂單，請與技術支援聯絡。"
+
+#: views/panes/operational-settings.php:12
+msgid "Order Status on Create"
+msgstr "訂單建立時的狀態"
+
+#: views/panes/operational-settings.php:33
+msgid "Order Status on Paid"
+msgstr "訂單確定收款時的狀態"
+
+#: plugin/Setup.php:545
+#, php-format
+msgid "Order status: %s cannot be voided! Use refund function instead."
+msgstr "無法取消處於「%s」狀態的訂單，請使用退款功能。"
+
+#: views/woocommerce_payments_settings.php:39
+#: views/panes/other-settings.php:111
+msgid "Other Settings"
+msgstr "其他設定"
+
+#: views/panes/merchant-settings.php:190
+msgid ""
+"Our gateway can process refunds only when the order is after settlement, and "
+"once only per order. Please contact our support for cases beyond this "
+"processing scope."
+msgstr "我們的控制台只能在訂單結算後處理退款，並且每個訂單只可以退款一次。對於超出此處理範圍的情況，請聯繫我們取得協助。"
+
+#: bootstrap/Plugin.php:242
+msgid "PHP Update required!"
+msgstr "需要更新PHP!"
+
+#: bootstrap/Plugin.php:245
+#, php-format
+msgid "PHP Version: %s %s"
+msgstr "PHP版本：%s %s"
+
+#. %1$s, %2$s, %3$s are text labels for "generate", "copy", "portal login" buttons.
+#: views/panes/merchant-settings.php:72
+#, php-format
+msgid ""
+"Please click the '%1$s' button below to receive a new key, then you can "
+"click '%2$s' button to copy the new public key and click '%3$s' button go to "
+"BBMSL portal for the next step."
+msgstr "請點擊下方的「%1$s」按鈕取得新的公開密鑰，然後您可以點擊「%2$s」按鈕複製該公開密鑰，然後點擊「%3$s」進行下一步操作。"
+
+#: plugin/Notice.php:141
+msgid ""
+"Please complete BBMSL Payment Gateway setup by entering merchant ID and "
+"generating new keypair."
+msgstr "請通過輸入商戶ID並生成新的鍵盤來完成BBMSL設定。"
+
+#: views/panes/merchant-settings.php:80
+#| msgid ""
+#| "Please enter the 'Account Center' by clicking your account name at top "
+#| "right corner. Then select 'Public Key' from the menu and click 'Add "
+#| "Public Key' button to insert the newly copied public key from wordpress. "
+#| "Finally, click 'Active' to make it effective."
+msgid ""
+"Please enter the \"Account Center\" by clicking your account name at top "
+"right corner. Then select \"Public Key\" from the menu and click \"Add "
+"Public Key\" button to insert the newly copied public key from wordpress. "
+"Finally, click \"Active\" to make it effective."
+msgstr "請點擊右上角您的賬戶名稱進入「賬戶中心」，然後從選單中選擇「公鑰」並單擊「添加公鑰」按鈕以剛才複製的公鑰。 最後點擊「確定」使其生效。"
+
+#: plugin/Notice.php:174 views/woocommerce_order_status.php:110
+#: views/panes/merchant-settings.php:75 views/panes/merchant-settings.php:121
+#: views/panes/merchant-settings.php:159
+msgid "Portal Login"
+msgstr "登入 BBMSL 控制台"
+
+#: sdk/BBMSL_SDK.php:61
+msgid "Production"
+msgstr "交易模式"
+
+#: plugin/Setup.php:124
+msgid ""
+"Production keypair not ready, please regenerate and upload to BBMSL Portal."
+msgstr "交易模式的公開密鑰尚未正確設定，請「產生」新設定並上傳 BBMSL 控制台上。"
+
+#: plugin/Setup.php:118 plugin/Setup.php:235
+msgid "Production merchant ID"
+msgstr "商戶ID在交易模式中"
+
+#: views/panes/merchant-settings.php:85
+msgid "Public Key"
+msgstr "公開密鑰"
+
+#: plugin/WooCommerce.php:372
+msgid "Query returned empty result."
+msgstr "查詢返回空結果。"
+
+#: controllers/RefundController.php:51
+msgid "Refund amount cannot be larger than the order total."
+msgstr "退款金額不可多於最大訂單金額。"
+
+#: views/panes/merchant-settings.php:167
+msgid "Refund Settings"
+msgstr "退款設定"
+
+#: views/panes/merchant-settings.php:35
+msgid "Remember to save change for update new setting."
+msgstr "提提你需要「儲存」設定方會開始生效。"
+
+#: views/panes/advanced-settings.php:46
+msgid "Reset Settings"
+msgstr "重設設定"
+
+#: plugin/Setup.php:659
+msgid "Reset settings to default values success. (Excluding keys)"
+msgstr "重設設定成功。 (除密鑰以外)"
+
+#: views/panes/other-settings.php:82
+msgid "Result page after payment processing."
+msgstr "完成結帳時的結果頁面。"
+
+#: views/panes/advanced-settings.php:43 views/panes/advanced-settings.php:52
+msgid "Run"
+msgstr "執行"
+
+#: views/woocommerce_payments_settings.php:63
+msgid "Save changes"
+msgstr "儲存"
+
+#: views/panes/woocommerce-settings.php:31
+msgid "Select All"
+msgstr "全選"
+
+#: views/panes/woocommerce-settings.php:29
+msgid ""
+"Select to show additional columns when viewing in WooCommerce order listing "
+"page."
+msgstr "在查看 WooCommerce 訂單清單頁面時，可選擇顯示這些欄位。"
+
+#: plugin/Notice.php:86
+msgid ""
+"Session is disabled on server, flash messages and some user reminders would "
+"not work. It's strongly advised to have sessions back on via adjusting PHP "
+"settings."
+msgstr "伺服器已停用Session功能，因此無法使用快顯訊息和某些使用者提示功能。強烈建議通過修改 PHP 設定將Session功能重新啟用。"
+
+#: plugin/Setup.php:376 plugin/Setup.php:593
+msgid "Settings"
+msgstr "設定"
+
+#: plugin/Notice.php:143
+msgid "Setup Now"
+msgstr "現在設定"
+
+#: views/panes/merchant-settings.php:214
+msgid "Show BBMSL checkout option from within the mini-cart of the theme."
+msgstr "在購物車附近顯示「特快付款」的選項。"
+
+#: views/panes/other-settings.php:55
+msgid "Show Email input"
+msgstr "顯示電子郵件輸入欄"
+
+#: views/panes/other-settings.php:39
+msgid "Show Gateway Branding"
+msgstr "顯示支援字樣"
+
+#: views/panes/other-settings.php:56
+msgid "Show input field for email entry, used for gateway receipt."
+msgstr "提供輸入欄以便客人接收來自BBMSL的電子郵件收據。"
+
+#: views/panes/other-settings.php:31
+msgid "Show language tools"
+msgstr "顯示語言工具"
+
+#: views/panes/other-settings.php:63
+msgid "Show Merchant Reference"
+msgstr "顯示商戶參考"
+
+#: views/panes/other-settings.php:47
+msgid "Show Order Details"
+msgstr "顯示帳單詳情"
+
+#: views/panes/other-settings.php:71
+msgid "Show Order ID"
+msgstr "顯示訂單編號"
+
+#: views/panes/other-settings.php:48
+msgid "Show order product listing on the right hand side of the checkout page."
+msgstr "在頁面右方列出帳單內的產品"
+
+#: views/panes/other-settings.php:40
+msgid "Show powered by text at the bottom of the gateway checkout page."
+msgstr "顯示付款技術由BBMSL支援字樣。"
+
+#: views/panes/advanced-settings.php:37
+msgid "Show Server Info"
+msgstr "顯示伺服器規格"
+
+#: views/panes/other-settings.php:32
+msgid "Show switch language options for the gateway page."
+msgstr "在付款頁面上顯示切換語言的選項。"
+
+#: views/panes/other-settings.php:72
+msgid "Show the gateway order ID."
+msgstr "在結帳頁面上顯示訂單編號"
+
+#: views/panes/other-settings.php:64
+msgid "Show the merchant reference."
+msgstr "在結帳頁面上顯示商戶參考。"
+
+#: views/panes/merchant-settings.php:60
+msgid "Signature Verification"
+msgstr "數位簽署驗證"
+
+#: plugin/Setup.php:191 plugin/Setup.php:206
+#, php-format
+msgid "Switching to %s failed, please review settings and try again."
+msgstr "切換至%s時失敗，請檢查設定並重試。"
+
+#: sdk/BBMSL_SDK.php:54
+msgid "Testing"
+msgstr "測試模式"
+
+#: plugin/Setup.php:135
+msgid ""
+"Testing keypair not ready, please regenerate and upload to BBMSL Portal."
+msgstr "測試模式的公開密鑰尚未正確設定，請「產生」新設定並上傳 BBMSL 控制台上。"
+
+#: plugin/Setup.php:129 plugin/Setup.php:241
+msgid "Testing merchant ID"
+msgstr "商戶ID在測試模式中"
+
+#: plugin/Setup.php:192 views/panes/merchant-settings.php:38
+msgid "Testing Mode"
+msgstr "測試模式"
+
+#: views/panes/merchant-settings.php:127
+msgid "Testing Site"
+msgstr "測試模式"
+
+#: views/panes/content-settings.php:124
+msgid "Thank You Page Content"
+msgstr "多謝惠顧頁面內容"
+
+#: views/panes/other-settings.php:96
+msgid ""
+"The background color of the checkout button on the gateway page can be set "
+"to match your brand."
+msgstr "付款頁面上付款按鈕的背景顏色，建議設定與網店品牌相附的顏色。"
+
+#: views/panes/other-settings.php:88
+msgid ""
+"The background color of the gateway page can be set to match your brand."
+msgstr "付款頁面的背景顏色，建議設定與網店品牌相附的顏色。"
+
+#: views/panes/content-settings.php:163
+msgid "The content display to the customer in the invoice email."
+msgstr "設定客戶完成付款確認電郵的附加內容。"
+
+#: views/panes/content-settings.php:132
+msgid ""
+"The content displayed after the customer checks out an order and returned to "
+"the confirmation page."
+msgstr "當顧客已完成付款並結束購物程序時需要顯示的內容。"
+
+#: views/panes/other-settings.php:104
+msgid ""
+"The font color of the checkout button on the gateway page can be set to a "
+"color that has contrast to your brand for easier reading."
+msgstr "付款頁面上付款按鈕的字體顏色，建議設定容易察看，與品牌顏色形成對比的顏色。"
+
+#: views/panes/operational-settings.php:13
+msgid "The initial order status when the order is first created."
+msgstr "最初建立訂單時設定的狀態。"
+
+#: plugin/Notice.php:104
+msgid "The previous page is expired, please retry."
+msgstr "上一頁已過期，請重試。"
+
+#: views/panes/content-settings.php:99
+msgid ""
+"The selected icons will be reflected in the checkout options and will also "
+"determine the display sequence and payment options on the BBMSL checkout "
+"page."
+msgstr "選擇的圖示將反映在結帳選項上，並且同時決定在BBMSL結帳頁面上的顯示順序和支付選項。\v"
+
+#: views/panes/advanced-settings.php:23
+msgid ""
+"The settings on this page is intended for additional support, merchants "
+"should only make use of these functions upon advised by customer support."
+msgstr "進階設定目的是為了方便提供支援，商戶只應在技術支援指示下進行操作。"
+
+#: views/panes/other-settings.php:87
+msgid "Theme color"
+msgstr "主題顏色"
+
+#: views/panes/merchant-settings.php:189
+msgid ""
+"There are 2 modes for refund, be sure to choose Refund via BBMSL to refund "
+"transactions over our gateway, otherwise it will be manual refund, which is "
+"not reflected on the merchant portal."
+msgstr "退款有兩種方式，建議選擇通過BBMSL退款，使用控制台對交易進行退款，否則將需要商戶手動退款而且未必能夠反映在控制台上。"
+
+#: views/panes/advanced-settings.php:31
+msgid ""
+"This may include request signatures and your public key. Never expose this "
+"data other than BBMSL support."
+msgstr "這個檔案包含你的公開密匙，切勿與非BBMSL人員分享此檔案。"
+
+#: views/panes/merchant-settings.php:46
+msgid ""
+"This mode allows paper ordering without making real transactions, used "
+"during integration and development."
+msgstr "此模式允許在開發期間使用，無需進行實際交易即可模擬記帳。"
+
+#: plugin/Setup.php:467 views/woocommerce_order_status.php:139
+msgid "This order has already been refunded before."
+msgstr "該訂單先前經已退款了。"
+
+#: views/panes/advanced-settings.php:40
+msgid ""
+"This will include all technical settings of your hosting server. Never "
+"expose this data other than BBMSL support."
+msgstr "這個頁面內容包含技術敏感設定資料，切勿與非BBMSL人員分享此頁面之內容。"
+
+#: views/panes/merchant-settings.php:62
+msgid ""
+"To verify request coming from your online store, you'll need to upload your "
+"public key to BBMSL Portal or transactions will not be authenticated."
+msgstr "要驗證來自您的在線商店的請求，您需要將您的公開密鑰上傳到 BBMSL 控制台，否則交易將不會被驗證及處理。"
+
+#: views/woocommerce_order_status.php:72
+msgid "Total Refunded Amount"
+msgstr "總退款額"
+
+#: plugin/Notice.php:172
+msgid ""
+"Transactions will not get authenticated if you do not update portal info now."
+msgstr "在控制台設定未更新前，使用新設定的訂單將無法成立。"
+
+#: views/woocommerce_order_status.php:33
+msgid ""
+"Unable to read the order details if current environment setting is not "
+"aligned with this order's. Please switch the testing mode if you need to "
+"view this order details"
+msgstr "無法在模式設定與訂單不一的情況下取得訂單狀態。請更改模式後重試。"
+
+#: plugin/Setup.php:387
+msgid "View BBMSL API docs"
+msgstr "查看BBMSL API技術文件"
+
+#: plugin/Setup.php:375
+msgid "View BBMSL settings"
+msgstr "查看BBMSL設定"
+
+#: views/woocommerce_order_status.php:114
+msgid "Void"
+msgstr "取消交易"
+
+#. %d is the number of errors currently detected
+#: plugin/Notice.php:259
+msgid ""
+"We need %d more settings in place to function properly, please correct the "
+"following items."
+msgstr "請更正以下%d個項目以便正確處理訂單。"
+
+#: plugin/Notice.php:114
+msgid "WooCommerce has not been installed!"
+msgstr "尚未安裝WooCommerce！"
+
+#: plugin/Notice.php:127
+msgid "WooCommerce needs to be activated before setting up gateway!"
+msgstr "請先啟用WooCommerce以便設定BBMSL付款。"
+
+#: views/woocommerce_payments_settings.php:44
+#: views/panes/woocommerce-settings.php:27
+msgid "WooCommerce Settings"
+msgstr "WooCommerce 設定"
+
+#: views/panes/merchant-settings.php:68
+msgid "WordPress"
+msgstr "WordPress"
+
+#: views/woocommerce_order_status.php:100
+msgid "Yes"
+msgstr "是"

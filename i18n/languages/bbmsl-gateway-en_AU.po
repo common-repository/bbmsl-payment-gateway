@@ -1,0 +1,962 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: BBMSL Payment Gateway\n"
+"Report-Msgid-Bugs-To: support@coding-free.com\n"
+"POT-Creation-Date: 2023-06-28 17:31+0000\n"
+"PO-Revision-Date: 2023-09-06 08:08+0000\n"
+"Last-Translator: chiucs123\n"
+"Language-Team: English (Australia)\n"
+"Language: en_AU\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Domain: bbmsl-gateway\n"
+"X-Generator: Loco https://localise.biz/"
+
+#. %s is the name of the attribute that triggered this error
+#: plugin/Setup.php:79
+#, php-format
+msgid "%s cannot be blank."
+msgstr "%s cannot be blank."
+
+#. %s is the name of the attribute that triggered this error
+#: plugin/Setup.php:85
+#, php-format
+msgid "%s must be an integer"
+msgstr "%s must be an integer"
+
+#. %s is the name of the attribute that triggered this error
+#: plugin/Setup.php:91
+#, php-format
+msgid "%s must larger than 0."
+msgstr "%s must larger than 0."
+
+#: views/panes/merchant-settings.php:67
+#, php-format
+msgid "1. On %s"
+msgstr "1. On %s"
+
+#: views/panes/merchant-settings.php:79
+msgid "2. On BBMSL Portal"
+msgstr "2. On BBMSL Portal"
+
+#: sdk/PaymentGateway.php:185
+msgid ""
+"[Error - Invalid Key] For further assist, please contact customer service."
+msgstr ""
+"[Error - Invalid Key] For further assist, please contact customer service."
+
+#: sdk/PaymentGateway.php:183
+msgid ""
+"[Error - No Public Key] For further assist, please contact customer service."
+msgstr ""
+"[Error - No Public Key] For further assist, please contact customer service."
+
+#: views/panes/merchant-settings.php:188
+msgid "About Refunds"
+msgstr "About Refunds"
+
+#: plugin/Notice.php:129
+msgid "Activate Now"
+msgstr "Activate Now"
+
+#: views/panes/other-settings.php:98
+msgid "Adjust the background color of the checkout button on the gateway page."
+msgstr ""
+"Adjust the background color of the checkout button on the gateway page."
+
+#: views/panes/other-settings.php:90
+msgid "Adjust the background color of the gateway page."
+msgstr "Adjust the background color of the gateway page."
+
+#: views/panes/other-settings.php:106
+msgid "Adjust the font color of the checkout button on the gateway page."
+msgstr "Adjust the font color of the checkout button on the gateway page."
+
+#: views/woocommerce_payments_settings.php:49
+#: views/panes/advanced-settings.php:22
+msgid "Advanced Settings"
+msgstr "Advanced Settings"
+
+#: views/woocommerce_order_status.php:66
+msgid "Amount"
+msgstr "Amount"
+
+#: sdk/PaymentGateway.php:190
+msgid "An error has occured."
+msgstr "An error has occured."
+
+#: plugin/Setup.php:538
+msgid "API call failed."
+msgstr "API call failed."
+
+#: plugin/Setup.php:388
+msgid "API docs"
+msgstr "API docs"
+
+#: views/panes/content-settings.php:90
+msgid "Available Gateways"
+msgstr "Available Gateways"
+
+#: sdk/PaymentGateway.php:38
+msgid "BBMSL"
+msgstr "BBMSL"
+
+#: plugin/WooCommerce.php:290
+msgid "BBMSL Checkout"
+msgstr "BBMSL Checkout"
+
+#: bootstrap/Constants.php:231
+msgid "BBMSL Order ID"
+msgstr "BBMSL Order ID"
+
+#. Name of the plugin
+msgid "BBMSL Payment Gateway"
+msgstr "BBMSL Payment Gateway"
+
+#: plugin/Setup.php:592 plugin/Setup.php:610 plugin/Setup.php:611
+#: plugin/Setup.php:624 plugin/Setup.php:625 plugin/Setup.php:651
+#: plugin/Setup.php:652
+msgid "BBMSL Settings"
+msgstr "BBMSL Settings"
+
+#: views/panes/other-settings.php:80
+msgid ""
+"Before returning to merchant shop, show payment result page for a while."
+msgstr ""
+"Before returning to merchant shop, show payment result page for a while."
+
+#: views/panes/other-settings.php:95
+msgid "Button Background Color"
+msgstr "Button Background Color"
+
+#: views/panes/other-settings.php:103
+msgid "Button Font Color"
+msgstr "Button Font Color"
+
+#: controllers/RefundController.php:47
+msgid "Cancelled order does not qualify for refunds."
+msgstr "Cancelled order does not qualify for refunds."
+
+#: plugin/Setup.php:521 plugin/WooCommerce.php:378
+msgid "Cannot create new API call instance."
+msgstr "Cannot create new API call instance."
+
+#: controllers/RefundController.php:65
+msgid "Cannot obtain API instance."
+msgstr "Cannot obtain API instance."
+
+#: sdk/PaymentGateway.php:86
+msgid ""
+"Cart items cannot be added to payment order. Please try refreshing to see if "
+"the existing cart is still vaild for checkout."
+msgstr ""
+"Cart items cannot be added to payment order. Please try refreshing to see if "
+"the existing cart is still vaild for checkout."
+
+#: views/woocommerce_order_status.php:34
+msgid "Change Mode"
+msgstr "Change Mode"
+
+#: views/panes/operational-settings.php:34
+msgid "Change order status when payment has been confirmed by the gateway."
+msgstr "Change order status when payment has been confirmed by the gateway."
+
+#: views/woocommerce_order_status.php:45
+msgid "Checkout link is not available."
+msgstr "Checkout link is not available."
+
+#. Author of the plugin
+msgid "Coding Free Limited for BBMSL"
+msgstr "Coding Free Limited for BBMSL"
+
+#: plugin/Setup.php:392 plugin/Setup.php:393
+#: views/panes/merchant-settings.php:192
+msgid "Contact Support"
+msgstr "Contact Support"
+
+#: views/woocommerce_payments_settings.php:29
+#: views/panes/content-settings.php:27
+msgid "Content Settings"
+msgstr "Content Settings"
+
+#: views/panes/content-settings.php:68
+msgid ""
+"Content to display when customer is going to checkout with BBMSL gateway."
+msgstr ""
+"Content to display when customer is going to checkout with BBMSL gateway."
+
+#: views/panes/merchant-settings.php:74 views/panes/merchant-settings.php:118
+#: views/panes/merchant-settings.php:156
+msgid "Copy"
+msgstr "Copy"
+
+#: views/woocommerce_order_status.php:85
+msgid "Created at"
+msgstr "Created at"
+
+#: views/panes/merchant-settings.php:53
+msgid "Current endpoint: "
+msgstr "Current endpoint:"
+
+#: views/panes/merchant-settings.php:49
+msgid "Current mode: "
+msgstr "Current mode:"
+
+#: views/panes/content-settings.php:60
+msgid "Description"
+msgstr "Description"
+
+#: views/panes/woocommerce-settings.php:32
+msgid "Deselect All"
+msgstr "Deselect All"
+
+#: bootstrap/Plugin.php:277
+#, php-format
+msgid "Disk free space: %s"
+msgstr "Disk free space: %s"
+
+#: bootstrap/Plugin.php:280
+#, php-format
+msgid "Disk total space: %s"
+msgstr "Disk total space: %s"
+
+#: views/panes/merchant-settings.php:198
+msgid "Display Cart Express Checkout."
+msgstr "Display Cart Express Checkout."
+
+#: views/panes/other-settings.php:79
+msgid "Display Result Page"
+msgstr "Display Result Page"
+
+#: views/panes/advanced-settings.php:39
+msgid "Display your server full configuration."
+msgstr "Display your server full configuration."
+
+#: bootstrap/Plugin.php:260
+#, php-format
+msgid "DNS probe for: %s %s"
+msgstr "DNS probe for: %s %s"
+
+#: views/panes/advanced-settings.php:34
+msgid "Download"
+msgstr "Download"
+
+#: views/panes/advanced-settings.php:30
+msgid "Download a copy of API activities for programmatic inspection."
+msgstr "Download a copy of API activities for programmatic inspection."
+
+#: views/panes/advanced-settings.php:28
+msgid "Download Logs"
+msgstr "Download Logs"
+
+#: views/panes/content-settings.php:155
+msgid "Email Content"
+msgstr "Email Content"
+
+#: views/panes/other-settings.php:58
+msgid "Email field on the gateway page."
+msgstr "Email field on the gateway page."
+
+#: plugin/WooCommerce.php:375
+msgid "Empty order ID or merchant reference."
+msgstr "Empty order ID or merchant reference."
+
+#: views/panes/merchant-settings.php:168
+msgid "Enable refund via this gateway."
+msgstr "Enable refund via this gateway."
+
+#: views/panes/advanced-settings.php:48
+msgid ""
+"Erase all BBMSL related settings except for your public and private keys."
+msgstr ""
+"Erase all BBMSL related settings except for your public and private keys."
+
+#: views/panes/merchant-settings.php:197
+msgid "Express Checkout"
+msgstr "Express Checkout"
+
+#: bootstrap/Plugin.php:258
+msgid "Failed"
+msgstr "Failed"
+
+#: controllers/RefundController.php:60 controllers/RefundController.php:83
+#: sdk/PaymentGateway.php:208
+msgid "Failed to get order instance."
+msgstr "Failed to get order instance."
+
+#: sdk/PaymentGateway.php:206
+msgid "Failed to initiate gateway."
+msgstr "Failed to initiate gateway."
+
+#: sdk/PaymentGateway.php:204
+msgid "Failed to obtain checkout session."
+msgstr "Failed to obtain checkout session."
+
+#: plugin/Setup.php:440
+msgid "Failed to obtain order metadata."
+msgstr "Failed to obtain order metadata."
+
+#. %d is the order ID concerned
+#: controllers/WebhookController.php:144
+#, php-format
+msgid "Failed to read order %s."
+msgstr "Failed to read order %s."
+
+#: sdk/BBMSL_SDK.php:275
+msgid "Failed to sign the request, please contact technical support."
+msgstr "Failed to sign the request, please contact technical support."
+
+#: sdk/PaymentGateway.php:80
+msgid "Failed to validate order currency."
+msgstr "Failed to validate order currency."
+
+#: views/panes/other-settings.php:42
+msgid "Gateway branding on the gateway page."
+msgstr "Gateway branding on the gateway page."
+
+#: views/panes/content-settings.php:30
+msgid "Gateway Display Name"
+msgstr "Gateway Display Name"
+
+#: controllers/WebhookController.php:110
+msgid "Gateway Error"
+msgstr "Gateway Error"
+
+#. %s is the returned gateway error
+#: sdk/PaymentGateway.php:188
+#, php-format
+msgid "Gateway Error: %s"
+msgstr "Gateway Error: %s"
+
+#: views/panes/advanced-settings.php:49
+msgid ""
+"Gateway settings will be reset to default state, including previously "
+"enabled/disabled payment methods."
+msgstr ""
+"Gateway settings will be reset to default state, including previously "
+"enabled/disabled payment methods."
+
+#: views/panes/merchant-settings.php:73 views/panes/merchant-settings.php:115
+#: views/panes/merchant-settings.php:153
+msgid "Generate"
+msgstr "Generate"
+
+#: plugin/Setup.php:163
+msgid "Generated key check failed, please try again."
+msgstr "Generated key check failed, please try again."
+
+#: controllers/WebhookController.php:166
+msgid "Hello"
+msgstr "Hello"
+
+#. %s is the HTML code for the handle icon
+#: views/panes/content-settings.php:119
+#, php-format
+msgid "Hint: Drag %s to adjust sorting."
+msgstr "Hint: Drag %s to adjust sorting."
+
+#: plugin/Setup.php:52
+msgid "https://bbmsl.com/en/contact-us/"
+msgstr "https://bbmsl.com/en/contact-us/"
+
+#: plugin/Setup.php:386
+msgid "https://docs.bbmsl.com/"
+msgstr "https://docs.bbmsl.com/"
+
+#. Author URI of the plugin
+msgid "https://www.bbmsl.com/"
+msgstr "https://www.bbmsl.com/"
+
+#: views/panes/content-settings.php:100
+msgid ""
+"In the scenario where none of the icons are selected, all available payment "
+"methods will be displayed on the BBMSL checkout page."
+msgstr ""
+"In the scenario where none of the icons are selected, all available payment "
+"methods will be displayed on the BBMSL checkout page."
+
+#: plugin/Notice.php:116
+msgid "Install Now"
+msgstr "Install Now"
+
+#: bootstrap/Plugin.php:264
+msgid "Internal DB version: %d"
+msgstr "Internal DB version: %d"
+
+#: sdk/Webhook.php:107
+#, php-format
+msgid "Invalid method: %s."
+msgstr "Invalid method: %s."
+
+#: controllers/WebhookController.php:129
+#, php-format
+msgid "Invalid signature, validated with %s public key."
+msgstr "Invalid signature, validated with %s public key."
+
+#: views/woocommerce_order_status.php:97
+msgid "Is Recurring?"
+msgstr "Is Recurring?"
+
+#: views/panes/other-settings.php:34
+msgid "Language options on the gateway page."
+msgstr "Language options on the gateway page."
+
+#. %s is the timestamp string for last key generation
+#: views/panes/merchant-settings.php:110 views/panes/merchant-settings.php:148
+#, php-format
+msgid "Last key generation: %s"
+msgstr "Last key generation: %s"
+
+#: views/woocommerce_order_status.php:91
+msgid "Last updated at"
+msgstr "Last updated at"
+
+#: plugin/Setup.php:207 views/panes/merchant-settings.php:89
+msgid "Live Site"
+msgstr "Live Site"
+
+#: bootstrap/Plugin.php:272
+#, php-format
+msgid "Max. upload size: %s"
+msgstr "Max. upload size: %s"
+
+#: bootstrap/Plugin.php:273
+#, php-format
+msgid "Max. upload time: %ss"
+msgstr "Max. upload time: %ss"
+
+#: bootstrap/Plugin.php:268
+#, php-format
+msgid "Memory usage: %s"
+msgstr "Memory usage: %s"
+
+#: views/panes/merchant-settings.php:92 views/panes/merchant-settings.php:130
+msgid "Merchant ID"
+msgstr "Merchant ID"
+
+#: bootstrap/Constants.php:234 views/woocommerce_order_status.php:59
+msgid "Merchant Reference"
+msgstr "Merchant Reference"
+
+#: views/panes/other-settings.php:66
+msgid "Merchant reference line on the gateway page."
+msgstr "Merchant reference line on the gateway page."
+
+#: views/woocommerce_payments_settings.php:24
+#: views/panes/merchant-settings.php:36
+msgid "Merchant Settings"
+msgstr "Merchant Settings"
+
+#: controllers/RefundController.php:55
+msgid "Merchant settings not ready."
+msgstr "Merchant settings not ready."
+
+#: controllers/WebhookController.php:92
+msgid "Missing signature."
+msgstr "Missing signature."
+
+#. %s is the mode name
+#. %s is the previous mode code before failing over
+#: plugin/Setup.php:108 sdk/BBMSL.php:96
+#, php-format
+msgid "Mode (%s) is not accepted, please try again."
+msgstr "Mode (%s) is not accepted, please try again."
+
+#: views/woocommerce_order_status.php:78
+msgid "Net Amount"
+msgstr "Net Amount"
+
+#: views/panes/merchant-settings.php:104 views/panes/merchant-settings.php:142
+msgid "Never"
+msgstr "Never"
+
+#. %s is the name of the mode for which the keys are genereated
+#: plugin/Notice.php:171
+#, php-format
+msgid ""
+"New %s key pair generated successfully, please update portal information "
+"immediately."
+msgstr ""
+"New %s key pair generated successfully, please update portal information "
+"immediately."
+
+#: views/woocommerce_order_status.php:102
+msgid "No"
+msgstr "No"
+
+#: bootstrap/Plugin.php:240 bootstrap/Plugin.php:256
+msgid "OK"
+msgstr "OK"
+
+#. Description of the plugin
+#: sdk/PaymentGateway.php:66
+msgid ""
+"Online payment solution for Hong Kong merchants. Supports Visa, Master, AMEX,"
+" Alipay, Wechat Pay, Apple Pay, Google Pay."
+msgstr ""
+"Online payment solution for Hong Kong merchants. Supports Visa, Master, AMEX,"
+" Alipay, Wechat Pay, Apple Pay, Google Pay."
+
+#: views/woocommerce_order_status.php:136
+msgid "Online refund is available after settlement."
+msgstr "Online refund is available after settlement."
+
+#: views/woocommerce_payments_settings.php:34
+#: views/panes/operational-settings.php:54
+msgid "Operational Settings"
+msgstr "Operational Settings"
+
+#. %d is the order ID concerned
+#: controllers/WebhookController.php:137
+#, php-format
+msgid "Order (#%s) not found."
+msgstr "Order (#%s) not found."
+
+#: views/panes/woocommerce-settings.php:28
+msgid "Order Column Display"
+msgstr "Order Column Display"
+
+#: views/panes/other-settings.php:50
+msgid "Order detail listing on the gateway page."
+msgstr "Order detail listing on the gateway page."
+
+#: views/woocommerce_order_status.php:42
+msgid "Order has not been paid, client may checkout at the following link:"
+msgstr "Order has not been paid, client may checkout at the following link:"
+
+#: views/woocommerce_order_status.php:53
+msgid "Order ID"
+msgstr "Order ID"
+
+#: views/panes/other-settings.php:74
+msgid "Order ID on the gateway page."
+msgstr "Order ID on the gateway page."
+
+#: sdk/BBMSL_SDK.php:324
+msgid "Order production failed, please contact technical support."
+msgstr "Order production failed, please contact technical support."
+
+#: views/panes/operational-settings.php:12
+msgid "Order Status on Create"
+msgstr "Order Status on Create"
+
+#: views/panes/operational-settings.php:33
+msgid "Order Status on Paid"
+msgstr "Order Status on Paid"
+
+#: plugin/Setup.php:545
+#, php-format
+msgid "Order status: %s cannot be voided! Use refund function instead."
+msgstr "Order status: %s cannot be voided! Use refund function instead."
+
+#: views/woocommerce_payments_settings.php:39
+#: views/panes/other-settings.php:111
+msgid "Other Settings"
+msgstr "Other Settings"
+
+#: views/panes/merchant-settings.php:190
+msgid ""
+"Our gateway can process refunds only when the order is after settlement, and "
+"once only per order. Please contact our support for cases beyond this "
+"processing scope."
+msgstr ""
+"Our gateway can process refunds only when the order is after settlement, and "
+"once only per order. Please contact our support for cases beyond this "
+"processing scope."
+
+#: bootstrap/Plugin.php:242
+msgid "PHP Update required!"
+msgstr "PHP Update required!"
+
+#: bootstrap/Plugin.php:245
+#, php-format
+msgid "PHP Version: %s %s"
+msgstr "PHP Version: %s %s"
+
+#. %1$s, %2$s, %3$s are text labels for "generate", "copy", "portal login" buttons.
+#: views/panes/merchant-settings.php:72
+#, php-format
+msgid ""
+"Please click the '%1$s' button below to receive a new key, then you can "
+"click '%2$s' button to copy the new public key and click '%3$s' button go to "
+"BBMSL portal for the next step."
+msgstr ""
+"Please click the '%1$s' button below to receive a new key, then you can "
+"click '%2$s' button to copy the new public key and click '%3$s' button go to "
+"BBMSL portal for the next step."
+
+#: plugin/Notice.php:141
+msgid ""
+"Please complete BBMSL Payment Gateway setup by entering merchant ID and "
+"generating new keypair."
+msgstr ""
+"Please complete BBMSL Payment Gateway setup by entering merchant ID and "
+"generating new keypair."
+
+#: views/panes/merchant-settings.php:80
+msgid ""
+"Please enter the \"Account Center\" by clicking your account name at top "
+"right corner. Then select \"Public Key\" from the menu and click \"Add "
+"Public Key\" button to insert the newly copied public key from wordpress. "
+"Finally, click \"Active\" to make it effective."
+msgstr ""
+"Please enter the \"Account Center\" by clicking your account name at top "
+"right corner. Then select \"Public Key\" from the menu and click \"Add "
+"Public Key\" button to insert the newly copied public key from wordpress. "
+"Finally, click \"Active\" to make it effective."
+
+#: plugin/Notice.php:174 views/woocommerce_order_status.php:110
+#: views/panes/merchant-settings.php:75 views/panes/merchant-settings.php:121
+#: views/panes/merchant-settings.php:159
+msgid "Portal Login"
+msgstr "Portal Login"
+
+#: sdk/BBMSL_SDK.php:61
+msgid "Production"
+msgstr "Production"
+
+#: plugin/Setup.php:124
+msgid ""
+"Production keypair not ready, please regenerate and upload to BBMSL Portal."
+msgstr ""
+"Production keypair not ready, please regenerate and upload to BBMSL Portal."
+
+#: plugin/Setup.php:118 plugin/Setup.php:235
+msgid "Production merchant ID"
+msgstr "Production merchant ID"
+
+#: views/panes/merchant-settings.php:85
+msgid "Public Key"
+msgstr "Public Key"
+
+#: plugin/WooCommerce.php:372
+msgid "Query returned empty result."
+msgstr "Query returned empty result."
+
+#: controllers/RefundController.php:51
+msgid "Refund amount cannot be larger than the order total."
+msgstr "Refund amount cannot be larger than the order total."
+
+#: views/panes/merchant-settings.php:167
+msgid "Refund Settings"
+msgstr "Refund Settings"
+
+#: views/panes/merchant-settings.php:35
+msgid "Remember to save change for update new setting."
+msgstr "Remember to save change for update new setting."
+
+#: views/panes/advanced-settings.php:46
+msgid "Reset Settings"
+msgstr "Reset Settings"
+
+#: plugin/Setup.php:659
+msgid "Reset settings to default values success. (Excluding keys)"
+msgstr "Reset settings to default values success. (Excluding keys)"
+
+#: views/panes/other-settings.php:82
+msgid "Result page after payment processing."
+msgstr "Result page after payment processing."
+
+#: views/panes/advanced-settings.php:43 views/panes/advanced-settings.php:52
+msgid "Run"
+msgstr "Run"
+
+#: views/woocommerce_payments_settings.php:63
+msgid "Save changes"
+msgstr "Save changes"
+
+#: views/panes/woocommerce-settings.php:31
+msgid "Select All"
+msgstr "Select All"
+
+#: views/panes/woocommerce-settings.php:29
+msgid ""
+"Select to show additional columns when viewing in WooCommerce order listing "
+"page."
+msgstr ""
+"Select to show additional columns when viewing in WooCommerce order listing "
+"page."
+
+#: plugin/Notice.php:86
+msgid ""
+"Session is disabled on server, flash messages and some user reminders would "
+"not work. It's strongly advised to have sessions back on via adjusting PHP "
+"settings."
+msgstr ""
+"Session is disabled on server, flash messages and some user reminders would "
+"not work. It's strongly advised to have sessions back on via adjusting PHP "
+"settings."
+
+#: plugin/Setup.php:376 plugin/Setup.php:593
+msgid "Settings"
+msgstr "Settings"
+
+#: plugin/Notice.php:143
+msgid "Setup Now"
+msgstr "Setup Now"
+
+#: views/panes/merchant-settings.php:214
+msgid "Show BBMSL checkout option from within the mini-cart of the theme."
+msgstr "Show BBMSL checkout option from within the mini-cart of the theme."
+
+#: views/panes/other-settings.php:55
+msgid "Show Email input"
+msgstr "Show Email input"
+
+#: views/panes/other-settings.php:39
+msgid "Show Gateway Branding"
+msgstr "Show Gateway Branding"
+
+#: views/panes/other-settings.php:56
+msgid "Show input field for email entry, used for gateway receipt."
+msgstr "Show input field for email entry, used for gateway receipt."
+
+#: views/panes/other-settings.php:31
+msgid "Show language tools"
+msgstr "Show language tools"
+
+#: views/panes/other-settings.php:63
+msgid "Show Merchant Reference"
+msgstr "Show Merchant Reference"
+
+#: views/panes/other-settings.php:47
+msgid "Show Order Details"
+msgstr "Show Order Details"
+
+#: views/panes/other-settings.php:71
+msgid "Show Order ID"
+msgstr "Show Order ID"
+
+#: views/panes/other-settings.php:48
+msgid "Show order product listing on the right hand side of the checkout page."
+msgstr ""
+"Show order product listing on the right hand side of the checkout page."
+
+#: views/panes/other-settings.php:40
+msgid "Show powered by text at the bottom of the gateway checkout page."
+msgstr "Show powered by text at the bottom of the gateway checkout page."
+
+#: views/panes/advanced-settings.php:37
+msgid "Show Server Info"
+msgstr "Show Server Info"
+
+#: views/panes/other-settings.php:32
+msgid "Show switch language options for the gateway page."
+msgstr "Show switch language options for the gateway page."
+
+#: views/panes/other-settings.php:72
+msgid "Show the gateway order ID."
+msgstr "Show the gateway order ID."
+
+#: views/panes/other-settings.php:64
+msgid "Show the merchant reference."
+msgstr "Show the merchant reference."
+
+#: views/panes/merchant-settings.php:60
+msgid "Signature Verification"
+msgstr "Signature Verification"
+
+#: plugin/Setup.php:191 plugin/Setup.php:206
+#, php-format
+msgid "Switching to %s failed, please review settings and try again."
+msgstr "Switching to %s failed, please review settings and try again."
+
+#: sdk/BBMSL_SDK.php:54
+msgid "Testing"
+msgstr "Testing"
+
+#: plugin/Setup.php:135
+msgid ""
+"Testing keypair not ready, please regenerate and upload to BBMSL Portal."
+msgstr ""
+"Testing keypair not ready, please regenerate and upload to BBMSL Portal."
+
+#: plugin/Setup.php:129 plugin/Setup.php:241
+msgid "Testing merchant ID"
+msgstr "Testing merchant ID"
+
+#: plugin/Setup.php:192 views/panes/merchant-settings.php:38
+msgid "Testing Mode"
+msgstr "Testing Mode"
+
+#: views/panes/merchant-settings.php:127
+msgid "Testing Site"
+msgstr "Testing Site"
+
+#: views/panes/content-settings.php:124
+msgid "Thank You Page Content"
+msgstr "Thank You Page Content"
+
+#: views/panes/other-settings.php:96
+msgid ""
+"The background color of the checkout button on the gateway page can be set "
+"to match your brand."
+msgstr ""
+"The background color of the checkout button on the gateway page can be set "
+"to match your brand."
+
+#: views/panes/other-settings.php:88
+msgid ""
+"The background color of the gateway page can be set to match your brand."
+msgstr ""
+"The background color of the gateway page can be set to match your brand."
+
+#: views/panes/content-settings.php:163
+msgid "The content display to the customer in the invoice email."
+msgstr "The content display to the customer in the invoice email."
+
+#: views/panes/content-settings.php:132
+msgid ""
+"The content displayed after the customer checks out an order and returned to "
+"the confirmation page."
+msgstr ""
+"The content displayed after the customer checks out an order and returned to "
+"the confirmation page."
+
+#: views/panes/other-settings.php:104
+msgid ""
+"The font color of the checkout button on the gateway page can be set to a "
+"color that has contrast to your brand for easier reading."
+msgstr ""
+"The font color of the checkout button on the gateway page can be set to a "
+"color that has contrast to your brand for easier reading."
+
+#: views/panes/operational-settings.php:13
+msgid "The initial order status when the order is first created."
+msgstr "The initial order status when the order is first created."
+
+#: plugin/Notice.php:104
+msgid "The previous page is expired, please retry."
+msgstr "The previous page is expired, please retry."
+
+#: views/panes/content-settings.php:99
+msgid ""
+"The selected icons will be reflected in the checkout options and will also "
+"determine the display sequence and payment options on the BBMSL checkout "
+"page."
+msgstr ""
+"The selected icons will be reflected in the checkout options and will also "
+"determine the display sequence and payment options on the BBMSL checkout "
+"page."
+
+#: views/panes/advanced-settings.php:23
+msgid ""
+"The settings on this page is intended for additional support, merchants "
+"should only make use of these functions upon advised by customer support."
+msgstr ""
+"The settings on this page is intended for additional support, merchants "
+"should only make use of these functions upon advised by customer support."
+
+#: views/panes/other-settings.php:87
+msgid "Theme color"
+msgstr "Theme color"
+
+#: views/panes/merchant-settings.php:189
+msgid ""
+"There are 2 modes for refund, be sure to choose Refund via BBMSL to refund "
+"transactions over our gateway, otherwise it will be manual refund, which is "
+"not reflected on the merchant portal."
+msgstr ""
+"There are 2 modes for refund, be sure to choose Refund via BBMSL to refund "
+"transactions over our gateway, otherwise it will be manual refund, which is "
+"not reflected on the merchant portal."
+
+#: views/panes/advanced-settings.php:31
+msgid ""
+"This may include request signatures and your public key. Never expose this "
+"data other than BBMSL support."
+msgstr ""
+"This may include request signatures and your public key. Never expose this "
+"data other than BBMSL support."
+
+#: views/panes/merchant-settings.php:46
+msgid ""
+"This mode allows paper ordering without making real transactions, used "
+"during integration and development."
+msgstr ""
+"This mode allows paper ordering without making real transactions, used "
+"during integration and development."
+
+#: plugin/Setup.php:467 views/woocommerce_order_status.php:139
+msgid "This order has already been refunded before."
+msgstr "This order has already been refunded before."
+
+#: views/panes/advanced-settings.php:40
+msgid ""
+"This will include all technical settings of your hosting server. Never "
+"expose this data other than BBMSL support."
+msgstr ""
+"This will include all technical settings of your hosting server. Never "
+"expose this data other than BBMSL support."
+
+#: views/panes/merchant-settings.php:62
+msgid ""
+"To verify request coming from your online store, you'll need to upload your "
+"public key to BBMSL Portal or transactions will not be authenticated."
+msgstr ""
+"To verify request coming from your online store, you'll need to upload your "
+"public key to BBMSL Portal or transactions will not be authenticated."
+
+#: views/woocommerce_order_status.php:72
+msgid "Total Refunded Amount"
+msgstr "Total Refunded Amount"
+
+#: plugin/Notice.php:172
+msgid ""
+"Transactions will not get authenticated if you do not update portal info now."
+msgstr ""
+"Transactions will not get authenticated if you do not update portal info now."
+
+#: views/woocommerce_order_status.php:33
+msgid ""
+"Unable to read the order details if current environment setting is not "
+"aligned with this order's. Please switch the testing mode if you need to "
+"view this order details"
+msgstr ""
+"Unable to read the order details if current environment setting is not "
+"aligned with this order's. Please switch the testing mode if you need to "
+"view this order details"
+
+#: plugin/Setup.php:387
+msgid "View BBMSL API docs"
+msgstr "View BBMSL API docs"
+
+#: plugin/Setup.php:375
+msgid "View BBMSL settings"
+msgstr "View BBMSL settings"
+
+#: views/woocommerce_order_status.php:114
+msgid "Void"
+msgstr "Void"
+
+#. %d is the number of errors currently detected
+#: plugin/Notice.php:259
+msgid ""
+"We need %d more settings in place to function properly, please correct the "
+"following items."
+msgstr ""
+"We need %d more settings in place to function properly, please correct the "
+"following items."
+
+#: plugin/Notice.php:114
+msgid "WooCommerce has not been installed!"
+msgstr "WooCommerce has not been installed!"
+
+#: plugin/Notice.php:127
+msgid "WooCommerce needs to be activated before setting up gateway!"
+msgstr "WooCommerce needs to be activated before setting up gateway!"
+
+#: views/woocommerce_payments_settings.php:44
+#: views/panes/woocommerce-settings.php:27
+msgid "WooCommerce Settings"
+msgstr "WooCommerce Settings"
+
+#: views/panes/merchant-settings.php:68
+msgid "WordPress"
+msgstr "WordPress"
+
+#: views/woocommerce_order_status.php:100
+msgid "Yes"
+msgstr "Yes"

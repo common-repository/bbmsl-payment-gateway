@@ -1,0 +1,912 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: BBMSL Payment Gateway\n"
+"Report-Msgid-Bugs-To: support@coding-free.com\n"
+"POT-Creation-Date: 2023-06-28 17:31+0000\n"
+"PO-Revision-Date: 2023-09-06 09:15+0000\n"
+"Last-Translator: chiucs123\n"
+"Language-Team: Korean\n"
+"Language: ko_KR\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Domain: bbmsl-gateway\n"
+"X-Generator: Loco https://localise.biz/"
+
+#. %s is the name of the attribute that triggered this error
+#: plugin/Setup.php:79
+#, php-format
+msgid "%s cannot be blank."
+msgstr "%s는 비워 둘 수 없습니다."
+
+#. %s is the name of the attribute that triggered this error
+#: plugin/Setup.php:85
+#, php-format
+msgid "%s must be an integer"
+msgstr "%s는 정수여야 합니다."
+
+#. %s is the name of the attribute that triggered this error
+#: plugin/Setup.php:91
+#, php-format
+msgid "%s must larger than 0."
+msgstr "%s는 0보다 커야 합니다."
+
+#: views/panes/merchant-settings.php:67
+#, php-format
+msgid "1. On %s"
+msgstr "1. %s에"
+
+#: views/panes/merchant-settings.php:79
+msgid "2. On BBMSL Portal"
+msgstr "2. BBMSL 포털에서"
+
+#: sdk/PaymentGateway.php:185
+msgid ""
+"[Error - Invalid Key] For further assist, please contact customer service."
+msgstr "[Error - Invalid Key] 추가 지원을 받으려면 고객 서비스에 문의하십시오."
+
+#: sdk/PaymentGateway.php:183
+msgid ""
+"[Error - No Public Key] For further assist, please contact customer service."
+msgstr "[오류 - 공개 키 없음] 추가 지원을 받으려면 고객 서비스에 문의하십시오."
+
+#: views/panes/merchant-settings.php:188
+msgid "About Refunds"
+msgstr "환불에 대해"
+
+#: plugin/Notice.php:129
+msgid "Activate Now"
+msgstr "지금 실행 시켜라"
+
+#: views/panes/other-settings.php:98
+msgid "Adjust the background color of the checkout button on the gateway page."
+msgstr "게이트웨이 페이지에서 체크아웃 버튼의 배경색을 조정합니다."
+
+#: views/panes/other-settings.php:90
+msgid "Adjust the background color of the gateway page."
+msgstr "게이트웨이 페이지의 배경색을 조정합니다."
+
+#: views/panes/other-settings.php:106
+msgid "Adjust the font color of the checkout button on the gateway page."
+msgstr "게이트웨이 페이지에서 결제 버튼의 글꼴 색상을 조정합니다."
+
+#: views/woocommerce_payments_settings.php:49
+#: views/panes/advanced-settings.php:22
+msgid "Advanced Settings"
+msgstr "고급 설정"
+
+#: views/woocommerce_order_status.php:66
+msgid "Amount"
+msgstr "양"
+
+#: sdk/PaymentGateway.php:190
+msgid "An error has occured."
+msgstr "오류가 발생되었다."
+
+#: plugin/Setup.php:538
+msgid "API call failed."
+msgstr "API 호출에 실패했습니다."
+
+#: plugin/Setup.php:388
+msgid "API docs"
+msgstr "API 문서"
+
+#: views/panes/content-settings.php:90
+msgid "Available Gateways"
+msgstr "사용 가능한 게이트웨이"
+
+#: sdk/PaymentGateway.php:38
+msgid "BBMSL"
+msgstr "BBMSL"
+
+#: plugin/WooCommerce.php:290
+msgid "BBMSL Checkout"
+msgstr "BBMSL 체크아웃"
+
+#: bootstrap/Constants.php:231
+msgid "BBMSL Order ID"
+msgstr "BBMSL 주문 ID"
+
+#. Name of the plugin
+msgid "BBMSL Payment Gateway"
+msgstr "BBMSL 결제 게이트웨이"
+
+#: plugin/Setup.php:592 plugin/Setup.php:610 plugin/Setup.php:611
+#: plugin/Setup.php:624 plugin/Setup.php:625 plugin/Setup.php:651
+#: plugin/Setup.php:652
+msgid "BBMSL Settings"
+msgstr "BBMSL 설정"
+
+#: views/panes/other-settings.php:80
+msgid ""
+"Before returning to merchant shop, show payment result page for a while."
+msgstr "가맹점으로 돌아가기 전에 결제 결과 페이지를 잠시 보여줍니다."
+
+#: views/panes/other-settings.php:95
+msgid "Button Background Color"
+msgstr "버튼 배경색"
+
+#: views/panes/other-settings.php:103
+msgid "Button Font Color"
+msgstr "버튼 글꼴 색상"
+
+#: controllers/RefundController.php:47
+msgid "Cancelled order does not qualify for refunds."
+msgstr "취소된 주문은 환불 대상이 아닙니다."
+
+#: plugin/Setup.php:521 plugin/WooCommerce.php:378
+msgid "Cannot create new API call instance."
+msgstr "새 API 호출 인스턴스를 만들 수 없습니다."
+
+#: controllers/RefundController.php:65
+msgid "Cannot obtain API instance."
+msgstr "API 인스턴스를 얻을 수 없습니다."
+
+#: sdk/PaymentGateway.php:86
+msgid ""
+"Cart items cannot be added to payment order. Please try refreshing to see if "
+"the existing cart is still vaild for checkout."
+msgstr "장바구니 항목은 결제 주문에 추가할 수 없습니다. 새로고침하여 기존 장바구니가 여전히 결제에 유효한지 확인하세요."
+
+#: views/woocommerce_order_status.php:34
+msgid "Change Mode"
+msgstr "모드 변경"
+
+#: views/panes/operational-settings.php:34
+msgid "Change order status when payment has been confirmed by the gateway."
+msgstr "게이트웨이에서 결제가 확인되면 주문 상태를 변경합니다."
+
+#: views/woocommerce_order_status.php:45
+msgid "Checkout link is not available."
+msgstr "결제 링크를 사용할 수 없습니다."
+
+#. Author of the plugin
+msgid "Coding Free Limited for BBMSL"
+msgstr "Coding Free Limited for BBMSL"
+
+#: plugin/Setup.php:392 plugin/Setup.php:393
+#: views/panes/merchant-settings.php:192
+msgid "Contact Support"
+msgstr "연락처 지원"
+
+#: views/woocommerce_payments_settings.php:29
+#: views/panes/content-settings.php:27
+msgid "Content Settings"
+msgstr "콘텐츠 설정"
+
+#: views/panes/content-settings.php:68
+msgid ""
+"Content to display when customer is going to checkout with BBMSL gateway."
+msgstr "고객이 BBMSL 게이트웨이로 결제하려고 할 때 표시할 콘텐츠입니다."
+
+#: views/panes/merchant-settings.php:74 views/panes/merchant-settings.php:118
+#: views/panes/merchant-settings.php:156
+msgid "Copy"
+msgstr "복사"
+
+#: views/woocommerce_order_status.php:85
+msgid "Created at"
+msgstr "만든 시간"
+
+#: views/panes/merchant-settings.php:53
+msgid "Current endpoint: "
+msgstr "현재 끝점:"
+
+#: views/panes/merchant-settings.php:49
+msgid "Current mode: "
+msgstr "현재 모드:"
+
+#: views/panes/content-settings.php:60
+msgid "Description"
+msgstr "설명"
+
+#: views/panes/woocommerce-settings.php:32
+msgid "Deselect All"
+msgstr "모두 선택 취소"
+
+#: bootstrap/Plugin.php:277
+#, php-format
+msgid "Disk free space: %s"
+msgstr "디스크 여유 공간: %s"
+
+#: bootstrap/Plugin.php:280
+#, php-format
+msgid "Disk total space: %s"
+msgstr "디스크 총 공간: %s"
+
+#: views/panes/merchant-settings.php:198
+msgid "Display Cart Express Checkout."
+msgstr "카트 익스프레스 체크아웃을 표시합니다."
+
+#: views/panes/other-settings.php:79
+msgid "Display Result Page"
+msgstr "결과 페이지 표시"
+
+#: views/panes/advanced-settings.php:39
+msgid "Display your server full configuration."
+msgstr "서버 전체 구성을 표시합니다."
+
+#: bootstrap/Plugin.php:260
+#, php-format
+msgid "DNS probe for: %s %s"
+msgstr "다음에 대한 DNS 프로브: %s %s"
+
+#: views/panes/advanced-settings.php:34
+msgid "Download"
+msgstr "다운로드"
+
+#: views/panes/advanced-settings.php:30
+#| msgid "Download a copy of API activites for programmatic inspection."
+msgid "Download a copy of API activities for programmatic inspection."
+msgstr "프로그래밍 방식 검사를 위해 API 활동 사본을 다운로드합니다."
+
+#: views/panes/advanced-settings.php:28
+msgid "Download Logs"
+msgstr "로그 다운로드"
+
+#: views/panes/content-settings.php:155
+msgid "Email Content"
+msgstr "이메일 내용"
+
+#: views/panes/other-settings.php:58
+msgid "Email field on the gateway page."
+msgstr "게이트웨이 페이지의 이메일 필드."
+
+#: plugin/WooCommerce.php:375
+msgid "Empty order ID or merchant reference."
+msgstr "주문 ID 또는 판매자 참조가 비어 있습니다."
+
+#: views/panes/merchant-settings.php:168
+msgid "Enable refund via this gateway."
+msgstr "이 게이트웨이를 통해 환불을 활성화합니다."
+
+#: views/panes/advanced-settings.php:48
+msgid ""
+"Erase all BBMSL related settings except for your public and private keys."
+msgstr "공개 및 개인 키를 제외한 모든 BBMSL 관련 설정을 지웁니다."
+
+#: views/panes/merchant-settings.php:197
+msgid "Express Checkout"
+msgstr "익스프레스 체크아웃"
+
+#: bootstrap/Plugin.php:258
+msgid "Failed"
+msgstr "실패한"
+
+#: controllers/RefundController.php:60 controllers/RefundController.php:83
+#: sdk/PaymentGateway.php:208
+msgid "Failed to get order instance."
+msgstr "주문 인스턴스를 가져오지 못했습니다."
+
+#: sdk/PaymentGateway.php:206
+msgid "Failed to initiate gateway."
+msgstr "게이트웨이를 시작하지 못했습니다."
+
+#: sdk/PaymentGateway.php:204
+msgid "Failed to obtain checkout session."
+msgstr "결제 세션을 가져오지 못했습니다."
+
+#: plugin/Setup.php:440
+msgid "Failed to obtain order metadata."
+msgstr "주문 메타데이터를 가져오지 못했습니다."
+
+#. %d is the order ID concerned
+#: controllers/WebhookController.php:144
+#, php-format
+msgid "Failed to read order %s."
+msgstr "%s 주문을 읽지 못했습니다."
+
+#: sdk/BBMSL_SDK.php:275
+msgid "Failed to sign the request, please contact technical support."
+msgstr "요청에 서명하지 못했습니다. 기술 지원에 문의하십시오."
+
+#: sdk/PaymentGateway.php:80
+msgid "Failed to validate order currency."
+msgstr "주문 통화를 확인하지 못했습니다."
+
+#: views/panes/other-settings.php:42
+msgid "Gateway branding on the gateway page."
+msgstr "게이트웨이 페이지의 게이트웨이 브랜딩."
+
+#: views/panes/content-settings.php:30
+msgid "Gateway Display Name"
+msgstr "게이트웨이 표시 이름"
+
+#: controllers/WebhookController.php:110
+msgid "Gateway Error"
+msgstr "게이트웨이 오류"
+
+#. %s is the returned gateway error
+#: sdk/PaymentGateway.php:188
+#, php-format
+msgid "Gateway Error: %s"
+msgstr "게이트웨이 오류: %s"
+
+#: views/panes/advanced-settings.php:49
+msgid ""
+"Gateway settings will be reset to default state, including previously "
+"enabled/disabled payment methods."
+msgstr "이전에 활성화/비활성화된 결제 방법을 포함하여 게이트웨이 설정이 기본 상태로 재설정됩니다."
+
+#: views/panes/merchant-settings.php:73 views/panes/merchant-settings.php:115
+#: views/panes/merchant-settings.php:153
+msgid "Generate"
+msgstr "생성하다"
+
+#: plugin/Setup.php:163
+msgid "Generated key check failed, please try again."
+msgstr "생성된 키 확인에 실패했습니다. 다시 시도하십시오."
+
+#: controllers/WebhookController.php:166
+msgid "Hello"
+msgstr "안녕하세요"
+
+#. %s is the HTML code for the handle icon
+#: views/panes/content-settings.php:119
+#, php-format
+msgid "Hint: Drag %s to adjust sorting."
+msgstr "힌트: 정렬을 조정하려면 %s를 드래그하세요."
+
+#: plugin/Setup.php:52
+msgid "https://bbmsl.com/en/contact-us/"
+msgstr "https://bbmsl.com/en/contact-us/"
+
+#: plugin/Setup.php:386
+msgid "https://docs.bbmsl.com/"
+msgstr "https://docs.bbmsl.com/"
+
+#. Author URI of the plugin
+msgid "https://www.bbmsl.com/"
+msgstr "https://www.bbmsl.com/"
+
+#: views/panes/content-settings.php:100
+msgid ""
+"In the scenario where none of the icons are selected, all available payment "
+"methods will be displayed on the BBMSL checkout page."
+msgstr "아이콘이 선택되지 않은 시나리오에서는 사용 가능한 모든 결제 방법이 BBMSL 결제 페이지에 표시됩니다."
+
+#: plugin/Notice.php:116
+msgid "Install Now"
+msgstr "지금 설치"
+
+#: bootstrap/Plugin.php:264
+msgid "Internal DB version: %d"
+msgstr "내부 DB 버전: %d"
+
+#: sdk/Webhook.php:107
+#, php-format
+msgid "Invalid method: %s."
+msgstr "잘못된 방법: %s."
+
+#: controllers/WebhookController.php:129
+#, php-format
+msgid "Invalid signature, validated with %s public key."
+msgstr "유효하지 않은 서명, %s 공개 키로 검증됨."
+
+#: views/woocommerce_order_status.php:97
+msgid "Is Recurring?"
+msgstr "반복인가요?"
+
+#: views/panes/other-settings.php:34
+msgid "Language options on the gateway page."
+msgstr "게이트웨이 페이지의 언어 옵션."
+
+#. %s is the timestamp string for last key generation
+#: views/panes/merchant-settings.php:110 views/panes/merchant-settings.php:148
+#, php-format
+msgid "Last key generation: %s"
+msgstr "마지막 키 생성: %s"
+
+#: views/woocommerce_order_status.php:91
+msgid "Last updated at"
+msgstr "Last updated at"
+
+#: plugin/Setup.php:207 views/panes/merchant-settings.php:89
+msgid "Live Site"
+msgstr "라이브 사이트"
+
+#: bootstrap/Plugin.php:272
+#, php-format
+msgid "Max. upload size: %s"
+msgstr "최대 업로드 크기: %s"
+
+#: bootstrap/Plugin.php:273
+#, php-format
+msgid "Max. upload time: %ss"
+msgstr "최대 업로드 시간: %s초"
+
+#: bootstrap/Plugin.php:268
+#, php-format
+msgid "Memory usage: %s"
+msgstr "메모리 사용량: %s"
+
+#: views/panes/merchant-settings.php:92 views/panes/merchant-settings.php:130
+msgid "Merchant ID"
+msgstr "판매자 ID"
+
+#: bootstrap/Constants.php:234 views/woocommerce_order_status.php:59
+msgid "Merchant Reference"
+msgstr "가맹점 참고"
+
+#: views/panes/other-settings.php:66
+msgid "Merchant reference line on the gateway page."
+msgstr "게이트웨이 페이지의 판매자 참조 라인."
+
+#: views/woocommerce_payments_settings.php:24
+#: views/panes/merchant-settings.php:36
+msgid "Merchant Settings"
+msgstr "판매자 설정"
+
+#: controllers/RefundController.php:55
+msgid "Merchant settings not ready."
+msgstr "판매자 설정이 준비되지 않았습니다."
+
+#: controllers/WebhookController.php:92
+msgid "Missing signature."
+msgstr "서명이 누락되었습니다."
+
+#. %s is the mode name
+#. %s is the previous mode code before failing over
+#: plugin/Setup.php:108 sdk/BBMSL.php:96
+#, php-format
+msgid "Mode (%s) is not accepted, please try again."
+msgstr "모드(%s)가 허용되지 않습니다. 다시 시도하십시오."
+
+#: views/woocommerce_order_status.php:78
+msgid "Net Amount"
+msgstr "순액"
+
+#: views/panes/merchant-settings.php:104 views/panes/merchant-settings.php:142
+msgid "Never"
+msgstr "절대"
+
+#. %s is the name of the mode for which the keys are genereated
+#: plugin/Notice.php:171
+#, php-format
+msgid ""
+"New %s key pair generated successfully, please update portal information "
+"immediately."
+msgstr "새 %s 키 쌍이 성공적으로 생성되었습니다. 포털 정보를 즉시 업데이트하십시오."
+
+#: views/woocommerce_order_status.php:102
+msgid "No"
+msgstr "아니요"
+
+#: bootstrap/Plugin.php:240 bootstrap/Plugin.php:256
+msgid "OK"
+msgstr "알았어요"
+
+#. Description of the plugin
+#: sdk/PaymentGateway.php:66
+msgid ""
+"Online payment solution for Hong Kong merchants. Supports Visa, Master, AMEX,"
+" Alipay, Wechat Pay, Apple Pay, Google Pay."
+msgstr ""
+"홍콩 가맹점을 위한 온라인 결제 솔루션. Visa, Master, AMEX, Alipay, Wechat Pay, Apple Pay, "
+"Google Pay를 지원합니다."
+
+#: views/woocommerce_order_status.php:136
+msgid "Online refund is available after settlement."
+msgstr "온라인 환불은 결제 후 가능합니다."
+
+#: views/woocommerce_payments_settings.php:34
+#: views/panes/operational-settings.php:54
+msgid "Operational Settings"
+msgstr "작동 설정"
+
+#. %d is the order ID concerned
+#: controllers/WebhookController.php:137
+#, php-format
+msgid "Order (#%s) not found."
+msgstr "주문(#%s)을 찾을 수 없습니다."
+
+#: views/panes/woocommerce-settings.php:28
+msgid "Order Column Display"
+msgstr "주문 열 표시"
+
+#: views/panes/other-settings.php:50
+msgid "Order detail listing on the gateway page."
+msgstr "게이트웨이 페이지의 주문 상세 목록."
+
+#: views/woocommerce_order_status.php:42
+msgid "Order has not been paid, client may checkout at the following link:"
+msgstr "주문이 결제되지 않았습니다. 고객은 다음 링크에서 결제할 수 있습니다."
+
+#: views/woocommerce_order_status.php:53
+msgid "Order ID"
+msgstr "주문 아이디"
+
+#: views/panes/other-settings.php:74
+msgid "Order ID on the gateway page."
+msgstr "게이트웨이 페이지의 주문 ID."
+
+#: sdk/BBMSL_SDK.php:324
+msgid "Order production failed, please contact technical support."
+msgstr "주문 생산에 실패했습니다. 기술 지원팀에 문의하십시오."
+
+#: views/panes/operational-settings.php:12
+msgid "Order Status on Create"
+msgstr "생성 시 주문 상태"
+
+#: views/panes/operational-settings.php:33
+msgid "Order Status on Paid"
+msgstr "유료 주문 상태"
+
+#: plugin/Setup.php:545
+#, php-format
+msgid "Order status: %s cannot be voided! Use refund function instead."
+msgstr "주문 상태: %s는 취소할 수 없습니다! 대신 환불 기능을 사용하십시오."
+
+#: views/woocommerce_payments_settings.php:39
+#: views/panes/other-settings.php:111
+msgid "Other Settings"
+msgstr "다른 설정"
+
+#: views/panes/merchant-settings.php:190
+msgid ""
+"Our gateway can process refunds only when the order is after settlement, and "
+"once only per order. Please contact our support for cases beyond this "
+"processing scope."
+msgstr ""
+"당사 게이트웨이는 주문이 결제된 후 주문당 한 번만 환불을 처리할 수 있습니다. 이 처리 범위를 벗어난 사례에 대해서는 지원팀에 "
+"문의하십시오."
+
+#: bootstrap/Plugin.php:242
+msgid "PHP Update required!"
+msgstr "PHP 업데이트가 필요합니다!"
+
+#: bootstrap/Plugin.php:245
+#, php-format
+msgid "PHP Version: %s %s"
+msgstr "PHP 버전: %s %s"
+
+#. %1$s, %2$s, %3$s are text labels for "generate", "copy", "portal login" buttons.
+#: views/panes/merchant-settings.php:72
+#, php-format
+msgid ""
+"Please click the '%1$s' button below to receive a new key, then you can "
+"click '%2$s' button to copy the new public key and click '%3$s' button go to "
+"BBMSL portal for the next step."
+msgstr ""
+"새 키를 받으려면 아래의 '%1$s' 버튼을 클릭하세요. 그런 다음 '%2$s' 버튼을 클릭하여 새 공개 키를 복사하고 '%3$s' "
+"버튼을 클릭하면 다음 BBMSL 포털로 이동합니다."
+
+#: plugin/Notice.php:141
+msgid ""
+"Please complete BBMSL Payment Gateway setup by entering merchant ID and "
+"generating new keypair."
+msgstr "가맹점 ID를 입력하고 새 키 쌍을 생성하여 BBMSL 결제 게이트웨이 설정을 완료하세요."
+
+#: views/panes/merchant-settings.php:80
+msgid ""
+"Please enter the \"Account Center\" by clicking your account name at top "
+"right corner. Then select \"Public Key\" from the menu and click \"Add "
+"Public Key\" button to insert the newly copied public key from wordpress. "
+"Finally, click \"Active\" to make it effective."
+msgstr ""
+"오른쪽 상단 모서리에 있는 계정 이름을 클릭하여 \"계정 센터\"로 들어가십시오. 그런 다음 메뉴에서 \"공개 키\"를 선택하고 \"공개 "
+"키 추가\" 버튼을 클릭하여 워드프레스에서 새로 복사한 공개 키를 삽입합니다. 마지막으로 \"활성화\"를 클릭하여 적용합니다."
+
+#: plugin/Notice.php:174 views/woocommerce_order_status.php:110
+#: views/panes/merchant-settings.php:75 views/panes/merchant-settings.php:121
+#: views/panes/merchant-settings.php:159
+msgid "Portal Login"
+msgstr "포털 로그인"
+
+#: sdk/BBMSL_SDK.php:61
+msgid "Production"
+msgstr "프로덕션"
+
+#: plugin/Setup.php:124
+msgid ""
+"Production keypair not ready, please regenerate and upload to BBMSL Portal."
+msgstr "프로덕션 키 쌍이 준비되지 않았습니다. 다시 생성하여 BBMSL Portal에 업로드하십시오."
+
+#: plugin/Setup.php:118 plugin/Setup.php:235
+msgid "Production merchant ID"
+msgstr "프로덕션 판매자 ID"
+
+#: views/panes/merchant-settings.php:85
+msgid "Public Key"
+msgstr "공개 키"
+
+#: plugin/WooCommerce.php:372
+msgid "Query returned empty result."
+msgstr "쿼리가 빈 결과를 반환했습니다."
+
+#: controllers/RefundController.php:51
+msgid "Refund amount cannot be larger than the order total."
+msgstr "환불 금액은 주문 총액보다 클 수 없습니다."
+
+#: views/panes/merchant-settings.php:167
+msgid "Refund Settings"
+msgstr "환불 설정"
+
+#: views/panes/merchant-settings.php:35
+msgid "Remember to save change for update new setting."
+msgstr "새 설정을 업데이트하려면 변경 사항을 저장해야 합니다."
+
+#: views/panes/advanced-settings.php:46
+msgid "Reset Settings"
+msgstr "재설정 설정"
+
+#: plugin/Setup.php:659
+msgid "Reset settings to default values success. (Excluding keys)"
+msgstr "설정을 기본값으로 재설정 성공. (키 제외)"
+
+#: views/panes/other-settings.php:82
+msgid "Result page after payment processing."
+msgstr "결제 처리 후 결과 페이지입니다."
+
+#: views/panes/advanced-settings.php:43 views/panes/advanced-settings.php:52
+msgid "Run"
+msgstr "사형을 집행하다"
+
+#: views/woocommerce_payments_settings.php:63
+msgid "Save changes"
+msgstr "변경 사항을 저장하다"
+
+#: views/panes/woocommerce-settings.php:31
+msgid "Select All"
+msgstr "모두 선택"
+
+#: views/panes/woocommerce-settings.php:29
+msgid ""
+"Select to show additional columns when viewing in WooCommerce order listing "
+"page."
+msgstr "WooCommerce 주문 목록 페이지를 볼 때 추가 열을 표시하려면 선택하세요."
+
+#: plugin/Notice.php:86
+msgid ""
+"Session is disabled on server, flash messages and some user reminders would "
+"not work. It's strongly advised to have sessions back on via adjusting PHP "
+"settings."
+msgstr ""
+"서버에서 세션이 비활성화되어 플래시 메시지 및 일부 사용자 미리 알림이 작동하지 않습니다. PHP 설정을 조정하여 세션을 다시 켜는 것이 "
+"좋습니다."
+
+#: plugin/Setup.php:376 plugin/Setup.php:593
+msgid "Settings"
+msgstr "설정"
+
+#: plugin/Notice.php:143
+msgid "Setup Now"
+msgstr "지금 설정"
+
+#: views/panes/merchant-settings.php:214
+msgid "Show BBMSL checkout option from within the mini-cart of the theme."
+msgstr "테마의 미니 카트 내에서 BBMSL 결제 옵션을 표시합니다."
+
+#: views/panes/other-settings.php:55
+msgid "Show Email input"
+msgstr "이메일 입력 표시"
+
+#: views/panes/other-settings.php:39
+msgid "Show Gateway Branding"
+msgstr "게이트웨이 브랜딩 표시"
+
+#: views/panes/other-settings.php:56
+msgid "Show input field for email entry, used for gateway receipt."
+msgstr "게이트웨이 수신에 사용되는 이메일 항목에 대한 입력 필드를 표시합니다."
+
+#: views/panes/other-settings.php:31
+msgid "Show language tools"
+msgstr "언어 도구 표시"
+
+#: views/panes/other-settings.php:63
+msgid "Show Merchant Reference"
+msgstr "판매자 참조 표시"
+
+#: views/panes/other-settings.php:47
+msgid "Show Order Details"
+msgstr "Show Order Details"
+
+#: views/panes/other-settings.php:71
+msgid "Show Order ID"
+msgstr "주문 ID 표시"
+
+#: views/panes/other-settings.php:48
+msgid "Show order product listing on the right hand side of the checkout page."
+msgstr "결제 페이지 오른쪽에 주문 제품 목록을 표시합니다."
+
+#: views/panes/other-settings.php:40
+msgid "Show powered by text at the bottom of the gateway checkout page."
+msgstr "게이트웨이 체크아웃 페이지 하단에 텍스트로 제공됨을 표시합니다."
+
+#: views/panes/advanced-settings.php:37
+msgid "Show Server Info"
+msgstr "서버 정보 표시"
+
+#: views/panes/other-settings.php:32
+msgid "Show switch language options for the gateway page."
+msgstr "게이트웨이 페이지의 언어 전환 옵션을 표시합니다."
+
+#: views/panes/other-settings.php:72
+msgid "Show the gateway order ID."
+msgstr "게이트웨이 주문 ID를 표시합니다."
+
+#: views/panes/other-settings.php:64
+msgid "Show the merchant reference."
+msgstr "판매자 참조를 표시합니다."
+
+#: views/panes/merchant-settings.php:60
+msgid "Signature Verification"
+msgstr "서명 확인"
+
+#: plugin/Setup.php:191 plugin/Setup.php:206
+#, php-format
+msgid "Switching to %s failed, please review settings and try again."
+msgstr "%s로 전환하지 못했습니다. 설정을 검토하고 다시 시도하십시오."
+
+#: sdk/BBMSL_SDK.php:54
+msgid "Testing"
+msgstr "테스트"
+
+#: plugin/Setup.php:135
+msgid ""
+"Testing keypair not ready, please regenerate and upload to BBMSL Portal."
+msgstr "테스트 키 쌍이 준비되지 않았습니다. 다시 생성하고 BBMSL Portal에 업로드하십시오."
+
+#: plugin/Setup.php:129 plugin/Setup.php:241
+msgid "Testing merchant ID"
+msgstr "판매자 ID 테스트"
+
+#: plugin/Setup.php:192 views/panes/merchant-settings.php:38
+msgid "Testing Mode"
+msgstr "테스트 모드"
+
+#: views/panes/merchant-settings.php:127
+msgid "Testing Site"
+msgstr "테스트 사이트"
+
+#: views/panes/content-settings.php:124
+msgid "Thank You Page Content"
+msgstr "감사 페이지 콘텐츠"
+
+#: views/panes/other-settings.php:96
+msgid ""
+"The background color of the checkout button on the gateway page can be set "
+"to match your brand."
+msgstr "게이트웨이 페이지의 체크아웃 버튼 배경색을 브랜드와 일치하도록 설정할 수 있습니다."
+
+#: views/panes/other-settings.php:88
+msgid ""
+"The background color of the gateway page can be set to match your brand."
+msgstr "게이트웨이 페이지의 배경색은 브랜드와 일치하도록 설정할 수 있습니다."
+
+#: views/panes/content-settings.php:163
+msgid "The content display to the customer in the invoice email."
+msgstr "인보이스 이메일에서 고객에게 콘텐츠가 표시됩니다."
+
+#: views/panes/content-settings.php:132
+msgid ""
+"The content displayed after the customer checks out an order and returned to "
+"the confirmation page."
+msgstr "고객이 주문을 확인하고 확인 페이지로 돌아온 후 표시되는 콘텐츠입니다."
+
+#: views/panes/other-settings.php:104
+msgid ""
+"The font color of the checkout button on the gateway page can be set to a "
+"color that has contrast to your brand for easier reading."
+msgstr "게이트웨이 페이지의 체크아웃 버튼의 글꼴 색상은 쉽게 읽을 수 있도록 브랜드와 대비되는 색상으로 설정할 수 있습니다."
+
+#: views/panes/operational-settings.php:13
+msgid "The initial order status when the order is first created."
+msgstr "주문이 처음 생성될 때의 초기 주문 상태입니다."
+
+#: plugin/Notice.php:104
+msgid "The previous page is expired, please retry."
+msgstr "이전 페이지가 만료되었습니다. 다시 시도하십시오."
+
+#: views/panes/content-settings.php:99
+msgid ""
+"The selected icons will be reflected in the checkout options and will also "
+"determine the display sequence and payment options on the BBMSL checkout "
+"page."
+msgstr "선택한 아이콘은 결제 옵션에 반영되며 BBMSL 결제 페이지의 표시 순서 및 결제 옵션도 결정합니다."
+
+#: views/panes/advanced-settings.php:23
+msgid ""
+"The settings on this page is intended for additional support, merchants "
+"should only make use of these functions upon advised by customer support."
+msgstr "이 페이지의 설정은 추가 지원을 위한 것이며 판매자는 고객 지원의 조언이 있는 경우에만 이러한 기능을 사용해야 합니다."
+
+#: views/panes/other-settings.php:87
+msgid "Theme color"
+msgstr "테마 색상"
+
+#: views/panes/merchant-settings.php:189
+msgid ""
+"There are 2 modes for refund, be sure to choose Refund via BBMSL to refund "
+"transactions over our gateway, otherwise it will be manual refund, which is "
+"not reflected on the merchant portal."
+msgstr ""
+"환불에는 2가지 모드가 있습니다. 게이트웨이를 통해 거래를 환불하려면 BBMSL을 통한 환불을 선택해야 합니다. 그렇지 않으면 판매자 "
+"포털에 반영되지 않는 수동 환불이 됩니다."
+
+#: views/panes/advanced-settings.php:31
+msgid ""
+"This may include request signatures and your public key. Never expose this "
+"data other than BBMSL support."
+msgstr "여기에는 요청 서명과 공개 키가 포함될 수 있습니다. BBMSL 지원 외에는 이 데이터를 노출하지 마십시오."
+
+#: views/panes/merchant-settings.php:46
+msgid ""
+"This mode allows paper ordering without making real transactions, used "
+"during integration and development."
+msgstr "이 모드는 통합 및 개발 중에 사용되는 실제 거래 없이 종이 주문을 허용합니다."
+
+#: plugin/Setup.php:467 views/woocommerce_order_status.php:139
+msgid "This order has already been refunded before."
+msgstr "이 주문은 이전에 이미 환불되었습니다."
+
+#: views/panes/advanced-settings.php:40
+msgid ""
+"This will include all technical settings of your hosting server. Never "
+"expose this data other than BBMSL support."
+msgstr "여기에는 호스팅 서버의 모든 기술 설정이 포함됩니다. BBMSL 지원 외에는 이 데이터를 노출하지 마십시오."
+
+#: views/panes/merchant-settings.php:62
+msgid ""
+"To verify request coming from your online store, you'll need to upload your "
+"public key to BBMSL Portal or transactions will not be authenticated."
+msgstr ""
+"온라인 상점에서 오는 요청을 확인하려면 공개 키를 BBMSL Portal에 업로드해야 합니다. 그렇지 않으면 거래가 인증되지 않습니다."
+
+#: views/woocommerce_order_status.php:72
+msgid "Total Refunded Amount"
+msgstr "총 환불 금액"
+
+#: plugin/Notice.php:172
+msgid ""
+"Transactions will not get authenticated if you do not update portal info now."
+msgstr "지금 포털 정보를 업데이트하지 않으면 트랜잭션이 인증되지 않습니다."
+
+#: views/woocommerce_order_status.php:33
+msgid ""
+"Unable to read the order details if current environment setting is not "
+"aligned with this order's. Please switch the testing mode if you need to "
+"view this order details"
+msgstr ""
+"현재 환경 설정이 이 주문과 일치하지 않으면 주문 세부 정보를 읽을 수 없습니다. 이 주문 세부 정보를 보려면 테스트 모드를 전환하십시오."
+
+#: plugin/Setup.php:387
+msgid "View BBMSL API docs"
+msgstr "BBMSL API 문서 보기"
+
+#: plugin/Setup.php:375
+msgid "View BBMSL settings"
+msgstr "BBMSL 설정 보기"
+
+#: views/woocommerce_order_status.php:114
+msgid "Void"
+msgstr "무효의"
+
+#. %d is the number of errors currently detected
+#: plugin/Notice.php:259
+msgid ""
+"We need %d more settings in place to function properly, please correct the "
+"following items."
+msgstr "제대로 작동하려면 %d개의 추가 설정이 필요합니다. 다음 항목을 수정하십시오."
+
+#: plugin/Notice.php:114
+msgid "WooCommerce has not been installed!"
+msgstr "WooCommerce가 설치되지 않았습니다!"
+
+#: plugin/Notice.php:127
+msgid "WooCommerce needs to be activated before setting up gateway!"
+msgstr "게이트웨이를 설정하기 전에 WooCommerce를 활성화해야 합니다!"
+
+#: views/woocommerce_payments_settings.php:44
+#: views/panes/woocommerce-settings.php:27
+msgid "WooCommerce Settings"
+msgstr "WooCommerce 설정"
+
+#: views/panes/merchant-settings.php:68
+msgid "WordPress"
+msgstr "WordPress"
+
+#: views/woocommerce_order_status.php:100
+msgid "Yes"
+msgstr "예"
